@@ -1,0 +1,13 @@
+# python
+__pycache__/
+.pytest_cache/
+.coverage
+
+# ide
+.vscode/
+.idea/
+
+# project
+/splits/
+/models/
+/datasets/
