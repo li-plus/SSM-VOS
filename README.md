@@ -91,9 +91,9 @@ Our pretrained models on DAVIS 2016, DAVIS 2017, and YouTube-VOS 2018 are availa
 
 ```sh
 mkdir -p models/pretrained && cd models/pretrained
-wget https://cloud.tsinghua.edu.cn/f/a26fd3e0adff4e09a20c/?dl=1 -O ssm_davis16.pt
-wget https://cloud.tsinghua.edu.cn/f/300675e6a4304297a5e9/?dl=1 -O ssm_davis17.pt
-wget https://cloud.tsinghua.edu.cn/f/b6e3d5e468d04e1eb895/?dl=1 -O ssm_youtube.pt
+wget https://www.dropbox.com/s/7dctisjdrl2b47c/ssm_davis16.pt -O ssm_davis16.pt
+wget https://www.dropbox.com/s/ew2d2gy3rldxob9/ssm_davis17.pt -O ssm_davis17.pt
+wget https://www.dropbox.com/s/jm24vm2puprcldz/ssm_youtube.pt -O ssm_youtube.pt
 ```
 
 To evaluate a given model on a specific dataset, specify the path to model and the corresponding split file. For example, to evaluate the pretrained model on DAVIS 2017, run
